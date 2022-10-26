@@ -16,18 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İlk sayıyı giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ce-BN-dgS">
-                                <rect key="frame" x="49" y="211" width="293" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İlk sayıyı giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ce-BN-dgS">
+                                <rect key="frame" x="45.666666666666657" y="205" width="299.33333333333337" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İkinci sayıyı giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ct-ps-u1c">
-                                <rect key="frame" x="49" y="278" width="293" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İkinci sayıyı giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ct-ps-u1c">
+                                <rect key="frame" x="45.666666666666657" y="272" width="299.33333333333337" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="56L-CU-ZOp">
-                                <rect key="frame" x="65" y="397" width="260" height="50"/>
+                                <rect key="frame" x="65" y="397" width="260.66666666666669" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kts-k1-76i">
                                         <rect key="frame" x="0.0" y="0.0" width="42.666666666666664" height="50"/>
@@ -40,7 +40,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qlm-PZ-wSd">
-                                        <rect key="frame" x="72.666666666666657" y="0.0" width="42.333333333333343" height="50"/>
+                                        <rect key="frame" x="72.666666666666657" y="0.0" width="42.666666666666657" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="-">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
@@ -50,7 +50,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrY-Jd-wHr">
-                                        <rect key="frame" x="145" y="0.0" width="42.666666666666657" height="50"/>
+                                        <rect key="frame" x="145.33333333333334" y="0.0" width="42.666666666666657" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="x">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5m-Cn-v8W">
-                                        <rect key="frame" x="217.66666666666669" y="0.0" width="42.333333333333314" height="50"/>
+                                        <rect key="frame" x="218" y="0.0" width="42.666666666666686" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="/">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
@@ -71,8 +71,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfO-Lf-3fx">
-                                <rect key="frame" x="49" y="127" width="293" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfO-Lf-3fx">
+                                <rect key="frame" x="45" y="111" width="300" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -81,18 +81,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="BRQ-AV-OdP"/>
-                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="leading" secondItem="3ce-BN-dgS" secondAttribute="leading" id="CgF-Rp-OGQ"/>
-                            <constraint firstItem="3ce-BN-dgS" firstAttribute="trailing" secondItem="4ct-ps-u1c" secondAttribute="trailing" id="DBK-EV-EVN"/>
-                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="trailing" secondItem="3ce-BN-dgS" secondAttribute="trailing" id="EaT-CZ-VZ0"/>
-                            <constraint firstItem="4ct-ps-u1c" firstAttribute="top" secondItem="3ce-BN-dgS" secondAttribute="bottom" constant="33" id="Nfv-3U-t8g"/>
-                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OLt-wn-g8u"/>
-                            <constraint firstItem="4ct-ps-u1c" firstAttribute="centerX" secondItem="56L-CU-ZOp" secondAttribute="centerX" id="SlM-44-cjn"/>
-                            <constraint firstItem="56L-CU-ZOp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XJG-wr-dGc"/>
-                            <constraint firstItem="3ce-BN-dgS" firstAttribute="leading" secondItem="4ct-ps-u1c" secondAttribute="leading" id="bps-7q-tbA"/>
-                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="e9M-kh-Vaz"/>
-                            <constraint firstItem="3ce-BN-dgS" firstAttribute="top" secondItem="dfO-Lf-3fx" secondAttribute="bottom" constant="48" id="giz-T4-9v1"/>
-                            <constraint firstItem="56L-CU-ZOp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="hYd-5O-LdO"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="leading" relation="lessThanOrEqual" secondItem="3ce-BN-dgS" secondAttribute="leading" id="1v8-rS-ZDu"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="8XD-hH-o7A"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="AWZ-HD-808"/>
+                            <constraint firstItem="56L-CU-ZOp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="AtN-tl-jPS"/>
+                            <constraint firstItem="3ce-BN-dgS" firstAttribute="top" secondItem="dfO-Lf-3fx" secondAttribute="bottom" constant="58" id="EW1-Yb-ygF"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IXy-CX-Es5"/>
+                            <constraint firstItem="3ce-BN-dgS" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="4ct-ps-u1c" secondAttribute="trailing" id="Kxf-WA-yed"/>
+                            <constraint firstItem="4ct-ps-u1c" firstAttribute="centerX" secondItem="56L-CU-ZOp" secondAttribute="centerX" id="NeC-zO-isn"/>
+                            <constraint firstItem="3ce-BN-dgS" firstAttribute="leading" relation="lessThanOrEqual" secondItem="4ct-ps-u1c" secondAttribute="leading" id="TjX-G1-BFE"/>
+                            <constraint firstItem="56L-CU-ZOp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bg5-b8-k5t"/>
+                            <constraint firstItem="4ct-ps-u1c" firstAttribute="top" secondItem="3ce-BN-dgS" secondAttribute="bottom" constant="33" id="c66-ux-8xD"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="3ce-BN-dgS" secondAttribute="trailing" id="goQ-PM-3e8"/>
                         </constraints>
                     </view>
                     <connections>
