@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HesapMakinesi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İlk sayıyı giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ce-BN-dgS">
+                                <rect key="frame" x="49" y="211" width="293" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İkinci sayıyı giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4ct-ps-u1c">
+                                <rect key="frame" x="49" y="278" width="293" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="56L-CU-ZOp">
+                                <rect key="frame" x="65" y="397" width="260" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kts-k1-76i">
+                                        <rect key="frame" x="0.0" y="0.0" width="42.666666666666664" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="+">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="topla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fnZ-4b-f5T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qlm-PZ-wSd">
+                                        <rect key="frame" x="72.666666666666657" y="0.0" width="42.333333333333343" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="-">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="cikar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2do-mS-ayo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrY-Jd-wHr">
+                                        <rect key="frame" x="145" y="0.0" width="42.666666666666657" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="x">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="carp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pJU-tr-TqM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5m-Cn-v8W">
+                                        <rect key="frame" x="217.66666666666669" y="0.0" width="42.333333333333314" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="/">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="bol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1F-gl-dl8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfO-Lf-3fx">
+                                <rect key="frame" x="49" y="127" width="293" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="BRQ-AV-OdP"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="leading" secondItem="3ce-BN-dgS" secondAttribute="leading" id="CgF-Rp-OGQ"/>
+                            <constraint firstItem="3ce-BN-dgS" firstAttribute="trailing" secondItem="4ct-ps-u1c" secondAttribute="trailing" id="DBK-EV-EVN"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="trailing" secondItem="3ce-BN-dgS" secondAttribute="trailing" id="EaT-CZ-VZ0"/>
+                            <constraint firstItem="4ct-ps-u1c" firstAttribute="top" secondItem="3ce-BN-dgS" secondAttribute="bottom" constant="33" id="Nfv-3U-t8g"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OLt-wn-g8u"/>
+                            <constraint firstItem="4ct-ps-u1c" firstAttribute="centerX" secondItem="56L-CU-ZOp" secondAttribute="centerX" id="SlM-44-cjn"/>
+                            <constraint firstItem="56L-CU-ZOp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XJG-wr-dGc"/>
+                            <constraint firstItem="3ce-BN-dgS" firstAttribute="leading" secondItem="4ct-ps-u1c" secondAttribute="leading" id="bps-7q-tbA"/>
+                            <constraint firstItem="dfO-Lf-3fx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="e9M-kh-Vaz"/>
+                            <constraint firstItem="3ce-BN-dgS" firstAttribute="top" secondItem="dfO-Lf-3fx" secondAttribute="bottom" constant="48" id="giz-T4-9v1"/>
+                            <constraint firstItem="56L-CU-ZOp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="hYd-5O-LdO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sayi1TextField" destination="3ce-BN-dgS" id="YQR-1f-sIo"/>
+                        <outlet property="sayi2TextField" destination="4ct-ps-u1c" id="DDq-yJ-y1z"/>
+                        <outlet property="sonucLabel" destination="dfO-Lf-3fx" id="3LV-Pk-GP6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.692307692307693" y="-2.1327014218009479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
